@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/frsp001.js"></script>
+		<title>戦闘力予測</title>
+	</head>
+	<body>
+		<div class="main-contents">
+			<h1 class="title-header">顔認証サイズ予測システム</h1>
+			<form action="/imageUpload" method="post" enctype="multipart/form-data">
+				<label id="face-image-upload-button">★アップロード★
+					<input type="file" value="" id="upload" name="faceImage" accept="image/*">
+				</label><br>
+				<img id="face-image-preview"><br>
+				<input type="button" value="この人の戦闘力を予測" id="predict-button" class="submit-button" onclick="location.href='file:///C:/GitHub/FRSPrepository/main/views/FRSP002.html'">
+			</form>
+		</div>
+	</body>
+</html>

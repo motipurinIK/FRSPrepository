@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="js/frsp002.js"></script>
+		<title>戦闘力予測</title>
+	</head>
+	<body>
+		<div class="main-contents">
+			<h1 class="title-header">顔認証サイズ予測システム</h1>
+			<form action="/imageUpload" method="post" enctype="multipart/form-data">
+				<img id="face-image-preview" src="C:\GitHub\FRSPrepository\main\views\sample.jpg"><br>
+				<p id="prediction-size">この人の戦闘力は150cmです</p>
+				<p class="common-info">↓機械学習のため実際の長さを教えてください↓</p>
+				<select name="true-size" id="true-size-pulldown">
+					<option value="1">1cm</option>
+					<option value="2">2cm</option>
+					<option value="3">3cm</option>
+					<option value="4">4cm</option>
+					<option value="5">5cm</option>
+					<option value="6">6cm</option>
+					<option value="7">7cm</option>
+					<option value="8">8cm</option>
+					<option value="9">9cm</option>
+					<option value="10">10cm</option>
+					<option value="11">11cm</option>
+					<option value="12">12cm</option>
+					<option value="13">13cm</option>
+					<option value="14">14cm</option>
+					<option value="15">15cm</option>
+					<option value="16">16cm</option>
+					<option value="17">17cm</option>
+					<option value="18">18cm</option>
+					<option value="19">19cm</option>
+					<option value="20">20cm</option>
+					<option value="21">21cm</option>
+					<option value="22">22cm</option>
+					<option value="23">23cm</option>
+					<option value="24">24cm</option>
+					<option value="25">25cm</option>
+					<option value="26">26cm</option>
+					<option value="27">27cm</option>
+					<option value="28">28cm</option>
+					<option value="29">29cm</option>
+					<option value="30">30cm</option>
+					<option value="31">31cm</option>
+					<option value="32">32cm</option>
+					<option value="33">33cm</option>
+					<option value="34">34cm</option>
+					<option value="35">35cm</option>
+					<option value="36">36cm</option>
+					<option value="37">37cm</option>
+					<option value="38">38cm</option>
+					<option value="39">39cm</option>
+					<option value="40">40cm</option>
+					<option value="41">41cm</option>
+					<option value="42">42cm</option>
+					<option value="43">43cm</option>
+					<option value="44">44cm</option>
+					<option value="45">45cm</option>
+					<option value="46">46cm</option>
+					<option value="47">47cm</option>
+					<option value="48">48cm</option>
+					<option value="49">49cm</option>
+					<option value="50">50cm</option>
+					<option value="51">51cm</option>
+					<option value="52">52cm</option>
+					<option value="53">53cm</option>
+					<option value="54">54cm</option>
+					<option value="55">55cm</option>
+					<option value="56">56cm</option>
+					<option value="57">57cm</option>
+					<option value="58">58cm</option>
+					<option value="59">59cm</option>
+					<option value="60">60cm</option>
+					<option value="61">61cm</option>
+					<option value="62">62cm</option>
+					<option value="63">63cm</option>
+					<option value="64">64cm</option>
+					<option value="65">65cm</option>
+					<option value="66">66cm</option>
+					<option value="67">67cm</option>
+					<option value="68">68cm</option>
+					<option value="69">69cm</option>
+					<option value="70">70cm</option>
+					<option value="71">71cm</option>
+					<option value="72">72cm</option>
+					<option value="73">73cm</option>
+					<option value="74">74cm</option>
+					<option value="75">75cm</option>
+					<option value="76">76cm</option>
+					<option value="77">77cm</option>
+					<option value="78">78cm</option>
+					<option value="79">79cm</option>
+					<option value="80">80cm</option>
+					<option value="81">81cm</option>
+					<option value="82">82cm</option>
+					<option value="83">83cm</option>
+					<option value="84">84cm</option>
+					<option value="85">85cm</option>
+					<option value="86">86cm</option>
+					<option value="87">87cm</option>
+					<option value="88">88cm</option>
+					<option value="89">89cm</option>
+					<option value="90">90cm</option>
+					<option value="91">91cm</option>
+					<option value="92">92cm</option>
+					<option value="93">93cm</option>
+					<option value="94">94cm</option>
+					<option value="95">95cm</option>
+					<option value="96">96cm</option>
+					<option value="97">97cm</option>
+					<option value="98">98cm</option>
+					<option value="99">99cm</option>
+					<option value="100">100cm</option>
+				</select>
+				<input type="button" value="学習" class="submit-button">
+			</form>
+		</div>
+	</body>
+</html>
